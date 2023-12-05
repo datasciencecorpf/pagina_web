@@ -1,0 +1,66 @@
+{
+  "name": "demo-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "bulma": "^0.9.4",
+    "date-fns": "^2.30.0",
+    "file-saver": "^2.0.5",
+    "fs": "^0.0.1-security",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.8.0",
+    "react-datepicker": "^4.11.0",
+    "react-dom": "^18.2.0",
+    "react-favicon": "^2.0.3",
+    "react-modal": "^3.16.1",
+    "react-native-calendars": "^1.1295.0",
+    "react-native-dropdown-picker": "^5.4.6",
+    "react-native-picker-select": "^8.0.4",
+    "react-native-table-component": "^1.2.2",
+    "react-notifications": "^1.7.4",
+    "react-obfuscate": "^3.6.9",
+    "react-router-dom": "^6.4.2",
+    "react-scripts": "5.0.1",
+    "react-toastify": "^9.1.2",
+    "reactjs-popup": "^2.0.5",
+    "web-vitals": "^2.1.4",
+    "xlsx": "^0.18.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "build": "set GENERATE_SOURCEMAP=false && react-scripts build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "proxy": "http://192.168.0.37:3002",
+  "devDependencies": {
+    "@babel/core": "^7.22.9",
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@babel/plugin-syntax-jsx": "^7.22.5",
+    "@babel/plugin-transform-react-jsx": "^7.22.5",
+    "@babel/preset-env": "^7.22.9",
+    "@babel/preset-react": "^7.22.5",
+    "terser": "^5.19.2"
+  }
+}

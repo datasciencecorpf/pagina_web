@@ -1,0 +1,2 @@
+.box-btn-empezar{color:#000;display:"flex"}.circle-loading{align-items:center;display:flex;height:30vh;justify-content:center}.circle{-webkit-animation:spin 1s linear infinite;animation:spin 1s linear infinite;border:6px solid #ccc;border-radius:50%;border-top-color:#333;height:80px;width:80px}@-webkit-keyframes spin{to{-webkit-transform:rotate(1turn);transform:rotate(1turn)}}@keyframes spin{to{-webkit-transform:rotate(1turn);transform:rotate(1turn)}}
+/*# sourceMappingURL=460.9722931b.chunk.css.map*/

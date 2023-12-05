@@ -1,0 +1,4 @@
+.conda
+backend/logs/
+node_modules
+frontend/node_modules

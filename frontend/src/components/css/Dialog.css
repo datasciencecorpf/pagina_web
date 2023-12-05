@@ -1,0 +1,93 @@
+.Dialog {
+position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+.modal-dialog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: fixed;
+  }
+
+
+
+
+  .Dialog-content {
+    
+    background-color: white;
+    padding: 20px;
+    
+  }
+  .Dialog-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .btn-close {
+     position: absolute;
+    top: 2px;
+    right: 5px;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    color: #000;
+    cursor: pointer; 
+    
+
+
+    
+  }
+  
+  .btn-close::before {
+    content: "X";
+  }
+
+  .modal-footer {
+    position: absolute;
+    bottom: 2px;
+    right: 10px;
+    
+    
+    
+  }
+  
+  .modal-footer button {
+    margin-left: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5%;
+    transition: background-color 0.3s, color 0.3s;
+
+  }
+  .modal-footer button:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #fff;
+  }
+  
+  .modal-footer button:active {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #fff;
+  }
+
+  .btn-dark {
+    background-color: orange;
+    color: white;
+  }
+  
+  .btn-danger {
+    background-color: red;
+    color: white;
+  }

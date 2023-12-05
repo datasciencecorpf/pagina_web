@@ -1,0 +1,2 @@
+.bar-loading{background-color:#ddd;height:10px;position:relative;width:100%}.bar-loading-progress{-webkit-animation:loading 2s linear infinite;animation:loading 2s linear infinite;background-color:#65ba4b;bottom:0;left:0;position:absolute;top:0;width:50%}@-webkit-keyframes loading{0%{left:-50%}to{left:100%}}@keyframes loading{0%{left:-50%}to{left:100%}}
+/*# sourceMappingURL=623.2b1903d0.chunk.css.map*/

@@ -1,0 +1,66 @@
+
+.btn-empezar {
+    display: flex; /* Utilizamos flexbox para centrar */
+  justify-content: center; /* Centramos horizontalmente */
+  align-items: center; /* Centramos verticalmente */
+  min-height: 20vh; 
+  flex-direction: column;
+  }
+
+.h1 {
+    justify-content: center;
+    align-items: center; 
+    display: flex;
+    
+}
+
+.continuar {
+    display: flex; 
+    flex-direction: column;
+     align-items: center;
+}
+.image-cloud-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-height: 30vh;
+
+    margin-top: 10%;
+    
+   
+}
+.cloud-image{
+    max-width: 20%;
+    
+ 
+}
+.button-content {
+    display: flex;
+    align-items: center;
+}
+
+.download-image {
+    width: 40% ; /* Ajusta el ancho de la imagen según tus necesidades */
+    height: 40%; /* Ajusta el alto de la imagen según tus necesidades */
+}
+  
+    
+
+.btn-funct{
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: center;
+}
+.card-icon{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bot-name{
+    font-size: 200%;
+    text-align: center;
+}

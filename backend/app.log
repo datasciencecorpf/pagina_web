@@ -1,0 +1,46 @@
+2023-07-26 10:45:49,037 - root - INFO - This is just an information for you
+2023-07-26 10:45:49,146 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2023-07-26 10:45:49,208 - uvicorn.error - INFO - Started server process [15880]
+2023-07-26 10:45:49,208 - uvicorn.error - INFO - Waiting for application startup.
+2023-07-26 10:45:49,208 - uvicorn.error - INFO - Application startup complete.
+2023-07-26 10:45:52,461 - services - INFO - Obteniendo proyecto: AgriFerAjuste (ID: p11)
+2023-07-26 10:46:38,155 - services - INFO - Ejecutando proyecto: AgriFerAjuste, Comando: -r leerGranjas
+2023-07-26 10:46:38,172 - services - INFO - Ejecutando proyecto en segundo plano: AgriFerAjuste, Comando: -r leerGranjas
+2023-07-26 10:46:39,740 - services - INFO - Obteniendo proyecto: AgriFerAjuste (ID: p11)
+2023-07-26 10:47:14,222 - root - INFO - This is just an information for you
+2023-07-26 10:47:14,222 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2023-07-26 10:47:14,222 - uvicorn.error - INFO - Started server process [8108]
+2023-07-26 10:47:14,238 - uvicorn.error - INFO - Waiting for application startup.
+2023-07-26 10:47:14,238 - uvicorn.error - INFO - Application startup complete.
+2023-07-26 10:47:21,503 - services - INFO - Ejecutando proyecto: AgriFerAjuste, Comando: -r leerGranjas
+2023-07-26 10:51:41,710 - services - INFO - Obteniendo proyecto: AgriFerAjuste (ID: p11)
+2023-07-26 10:52:24,002 - services - INFO - Ejecutando proyecto: AgriFerAjuste, Comando: -r leerGranjas
+2023-07-26 10:52:24,017 - services - INFO - Ejecutando proyecto en segundo plano: AgriFerAjuste, Comando: -r leerGranjas
+2023-07-26 10:52:47,960 - root - INFO - This is just an information for you
+2023-07-26 10:52:47,965 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2023-07-26 10:52:47,972 - uvicorn.error - INFO - Started server process [12204]
+2023-07-26 10:52:47,972 - uvicorn.error - INFO - Waiting for application startup.
+2023-07-26 10:52:47,972 - uvicorn.error - INFO - Application startup complete.
+2023-07-26 10:52:57,404 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2023-07-26 10:52:57,404 - multipart.multipart - DEBUG - Calling on_field_name with data[0:11]
+2023-07-26 10:52:57,404 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2023-07-26 10:52:57,404 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2023-07-26 10:52:57,404 - multipart.multipart - DEBUG - Calling on_field_name with data[13:21]
+2023-07-26 10:52:57,404 - multipart.multipart - DEBUG - Calling on_field_data with data[22:47]
+2023-07-26 10:52:57,404 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2023-07-26 10:52:57,404 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2023-07-26 10:52:57,404 - multipart.multipart - DEBUG - Calling on_field_name with data[48:56]
+2023-07-26 10:52:57,404 - multipart.multipart - DEBUG - Calling on_field_data with data[57:69]
+2023-07-26 10:52:57,404 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2023-07-26 10:52:57,404 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2023-07-26 10:52:57,404 - multipart.multipart - DEBUG - Calling on_field_name with data[70:75]
+2023-07-26 10:52:57,404 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2023-07-26 10:52:57,404 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2023-07-26 10:52:57,404 - multipart.multipart - DEBUG - Calling on_field_name with data[77:86]
+2023-07-26 10:52:57,404 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2023-07-26 10:52:57,404 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2023-07-26 10:52:57,404 - multipart.multipart - DEBUG - Calling on_field_name with data[88:101]
+2023-07-26 10:52:57,404 - multipart.multipart - DEBUG - Calling on_field_data with data[102:103]
+2023-07-26 10:52:57,404 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2023-07-26 10:52:57,404 - multipart.multipart - DEBUG - Calling on_end with no data
+2023-07-26 10:52:57,595 - root - INFO - Se logueo correctamente

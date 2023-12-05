@@ -1,0 +1,62 @@
+.project-dashboard {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+.project-card-cf {
+    padding: 1rem;
+    border: 1px solid #e38d53;
+    border-radius: 0.5rem;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.2s ease-in-out;
+    max-width: 600px; 
+    margin: 30px 30px 0 30px; 
+  }
+  
+  .project-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+ 
+
+@media screen and (max-width: 768px) {
+  .project-card {
+    max-width: 100%; /* ancho máximo de la tarjeta en dispositivos móviles */
+  }
+}
+
+
+/* Card*/
+
+.random-background-cf {
+    color: #000; /* Color del texto */
+    padding: 0.5rem; /* Espaciado interno */
+    background-color: rgb(2, 136, 209); 
+    color: rgb(255, 255, 255);
+  }
+  
+  /* Estilos CSS para las animaciones de fondo */
+  .random-background-cf.animated {
+    animation: random-background 0.2s ease-in-out;
+  }
+  
+  @keyframes random-background {
+    from {
+      background-color: #f5bf4a; /* Color inicial */
+    }
+    to {
+      background-color: #624e4e; /* Color final */
+    }
+
+  }
+  
+.image-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.centered-image{
+  max-width: 60%;
+  max-height: 80%;
+}

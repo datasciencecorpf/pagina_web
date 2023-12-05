@@ -1,0 +1,41 @@
+/* NAVBAR STYLING STARTS */
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    background-color: #BA4A00;
+    color: #fff;
+  }
+  
+  .img.img-responsive {
+    max-height: 50%;
+  }
+  
+  .navbar-item img {
+    max-height: 4rem;
+  }
+  
+  .white-image {
+    filter: brightness(0) invert(1);
+  }
+  
+  @media screen and (max-width: 768px) {
+    .navbar-menu {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+    }
+    
+    .navbar-end {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin-top: 10px;
+    }
+  }
+
+  
+  

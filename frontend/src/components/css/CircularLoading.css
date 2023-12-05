@@ -1,0 +1,22 @@
+.circle-loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+  }
+  
+  .circle {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 6px solid #ccc;
+    border-top-color: #333;
+    animation: spin 1s infinite linear;
+  }
+  
+  @keyframes spin {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  

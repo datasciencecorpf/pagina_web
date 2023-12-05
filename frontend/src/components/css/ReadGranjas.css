@@ -1,0 +1,14 @@
+.granja{
+    background: #2f3640;
+    border-radius: 8px;
+    color: #f5f6fa;
+    border: none;
+    font-size: 14px;
+    height: 30px;
+    padding: 5px;
+    
+  }
+  
+  .cmbColumn .option {
+    height: 30px;
+  }
