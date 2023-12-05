@@ -7,11 +7,9 @@ import { ToastContainer, toast } from 'react-toastify';
 import Toast from "../Toast";
 import Loading from "../Loading";
 import ModalDialog from '../DialogConf'
-import sapPNG from "C:\\Users\\datascience\\Documents\\Webpage\\demo-app\\frontend\\src\\assets\\SAP.png";
-import excelPNG from "C:\\Users\\datascience\\Documents\\Webpage\\demo-app\\frontend\\src\\assets\\excelinv.jpeg";
-import powerbiPNG from "C:\\Users\\datascience\\Documents\\Webpage\\demo-app\\frontend\\src\\assets\\powerbi.png";
-
-
+import sapPNG from "../../assets/SAP.png";
+import excelPNG from "../../assets/excelinv.jpeg";
+import powerbiPNG from "../../assets/powerbi.png";
 
 
 const BotInventarioAlmacenamiento = ({ title }) => {

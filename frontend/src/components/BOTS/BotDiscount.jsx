@@ -6,9 +6,9 @@ import { ToastContainer, toast } from 'react-toastify';
 import Navbar from "../NavBar";
 import ModalDialog from '../DialogConf'
 import CircularLoading from "../CircularLoading";
-import cloudSyncPNG from "C:\\Users\\datascience\\Documents\\Webpage\\demo-app\\frontend\\src\\sincronizando.png";
-import cloudDownloadPNG from "C:\\Users\\datascience\\Documents\\Webpage\\demo-app\\frontend\\src\\descargar.png";
-import downloadPNG from "C:\\Users\\datascience\\Documents\\Webpage\\demo-app\\frontend\\src\\btn_descargar.png";
+import cloudSyncPNG from "../../assets/sincronizando.png";
+import cloudDownloadPNG from "../../assets/descargar.png";
+import downloadPNG from "../../assets/btn_descargar.png";
 import cargarDescuentos from "../../../src/assets/aprobado.png";
 import PageNotFound from './PageNotFoud';
 import FileUpload from '../FileUpload';
